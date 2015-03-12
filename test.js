@@ -1,6 +1,8 @@
 $(document).ready(function(){
-  $('p').hover
-      (function(){$(this).css('color', 'red')};,
-      function(){$(this).css('color', 'green')};
-      });
+  	$("p").hover(function(){
+    	$(this).css("background-color", "yellow");
+    	}, function(){
+    	$(this).css("background-color", "pink");
+	});
 });
+
